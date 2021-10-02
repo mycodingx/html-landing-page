@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+
+:root {
+  --violet: hsl(257, 40%, 49%);
+  --magenta: hsl(300, 69%, 71%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: url("../images/bg-desktop.svg");
+  background-color: var(--violet);
+  font-family: "Poppins", sans-serif;
+  background-repeat: no-repeat, repeat;
+}
+
+.logo {
+  height: 40px;
+  margin: 40px 0 40px 40px;
+}
+
+.banner {
+  display: flex;
+  width: 100%;
+  height: 600px;
+}
+
+.box-one {
+  display: flex;
+  width: 60%;
+  justify-content: center;
+}
+
+.box-one img {
+  height: 500px;
+}
+
+.box-two {
+  color: #fff;
+  width: 40%;
+  padding: 40px 80px 0 0;
+}
+
+.box-two h1 {
+  font-weight: 600;
+  font-size: 36px;
+}
+.box-two p {
+  padding: 10px 10px 10px 0;
+  margin: 10px 0;
+}
+.btn-register {
+  background-color: var(--magenta);
+  border: 0;
+  color: #fff;
+  padding: 15px;
+  min-width: 180px;
+  border-radius: 40px;
+  font-size: 16px;
+  margin: 10px 0;
+  box-shadow: 10px 10px 22px -3px rgba(0, 0, 0, 0.75);
+}
+
+footer {
+  padding: 0 60px 10px 0;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  justify-content: flex-end;
+}
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 10px;
+  height: 10px;
+  color: #fff;
+  font-size: 16px;
+  border: 1px solid white;
+  padding: 15px;
+  border-radius: 50%;
+  margin: 8px;
+}
+.icon:hover {
+  cursor: pointer;
+  color: var(--magenta);
+  border-color: var(--magenta);
+}
